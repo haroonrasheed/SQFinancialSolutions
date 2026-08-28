@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Services | SQ Financial Solutions</title>
+<meta name="description" content="Explore SQ Financial Solutions' services: Business Registration, Audit & Assurance, HR, Taxation, Business Advisory, IT Audit, Accounting Software, and Retainership Services.">
+<link rel="icon" href="assets/images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .service-detail { display: grid; grid-template-columns: 92px 1fr; gap: 28px; padding: 46px 0; border-bottom: 1px solid var(--gray-200); }
+  .service-detail:last-child { border-bottom: none; }
+  .service-detail__icon { width: 92px; height: 92px; border-radius: 18px; display: flex; align-items: center; justify-content: center; background: var(--navy-800); color: #fff; }
+  .service-detail:nth-child(even) .service-detail__icon { background: var(--teal-600); }
+  .service-detail h2 { font-size: 1.5rem; margin-bottom: 10px; }
+  .service-detail p { margin-bottom: 18px; }
+  .service-detail ul { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 24px; }
+  .service-detail ul li { display: flex; gap: 10px; font-size: 0.94rem; color: var(--text-700); }
+  .service-detail ul li svg { flex-shrink: 0; color: var(--teal-600); margin-top: 3px; }
+  @media (max-width: 720px) {
+    .service-detail { grid-template-columns: 1fr; }
+    .service-detail ul { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__items">
+      <div class="topbar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6.5-6.2 6.5-11A6.5 6.5 0 0 0 5.5 10c0 4.8 6.5 11 6.5 11z"></path><circle cx="12" cy="10" r="2.2"></circle></svg>
+        <span>15C, Street 51, E-11/3, Islamabad</span>
+      </div>
+      <div class="topbar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><polyline points="3 7 12 13 21 7"></polyline></svg>
+        <a href="mailto:info@sqfinsolutions.com">info@sqfinsolutions.com</a>
+      </div>
+      <div class="topbar__item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h3l1.5 4.5-2 1.5a12 12 0 0 0 6 6l1.5-2 4.5 1.5v3c0 1-1 1.5-2 1.5C11.5 20 4 12.5 4 5.5 4 4.5 4.5 3.5 6.5 3z"></path></svg>
+        <a href="tel:0518467637">051-8467637</a>
+      </div>
+    </div>
+    <div class="topbar__social">
+      <a href="#" aria-label="LinkedIn"><span style="font-size:12px;font-weight:700;">in</span></a>
+      <a href="#" aria-label="Facebook"><span style="font-size:12px;font-weight:700;">f</span></a>
+      <a href="#" aria-label="Twitter"><span style="font-size:12px;font-weight:700;">X</span></a>
+    </div>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo.png" alt="SQ Financial Solutions" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'brand__fallback',innerHTML:'S<span>Q</span> Financial Solutions'}))">
+    </a>
+    <nav class="nav">
+      <div class="nav__item"><a href="index.html" class="nav__link" data-page="index.html">Home</a></div>
+      <div class="nav__item">
+        <a href="about.html" class="nav__link" data-page="about.html">About
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+        <div class="dropdown">
+          <a href="about.html#mission">Our Mission</a>
+          <a href="about.html#vision">Our Vision</a>
+          <a href="about.html#about-us">About Us</a>
+          <a href="about.html#philosophy">Our Philosophy</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a href="services.html" class="nav__link is-active" data-page="services.html">Services
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+        <div class="dropdown">
+          <a href="services.html#business-registration">Business Registration Services</a>
+          <a href="services.html#audit-assurance">Audit &amp; Assurance Services</a>
+          <a href="services.html#hr-services">Human Resource (HR) Services</a>
+          <a href="services.html#taxation">Taxation Services</a>
+          <a href="services.html#business-advisory">Business Advisory Services</a>
+          <a href="services.html#it-audit">Information Technology Audit</a>
+          <a href="services.html#accounting-software">Accounting Software Services</a>
+          <a href="services.html#retainership">Retainership Services</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a href="our-team.html" class="nav__link" data-page="our-team.html">Our Team
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+        <div class="dropdown">
+          <a href="our-team.html#leadership">Leadership Team</a>
+          <a href="our-team.html#culture">Our Culture</a>
+        </div>
+      </div>
+      <div class="nav__item">
+        <a href="industries.html" class="nav__link" data-page="industries.html">Industries
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+        <div class="dropdown">
+          <a href="industries.html#global-reach">Global Reach</a>
+          <a href="industries.html#sectors">Sectors We Serve</a>
+        </div>
+      </div>
+      <div class="nav__item"><a href="contact.html" class="nav__link" data-page="contact.html">Contact</a></div>
+      <a href="contact.html" class="btn btn--primary btn--sm nav-cta">Get a Consultation</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="nav-overlay"></div>
+
+<section class="hero hero--page">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 style="font-size:clamp(1.9rem,4vw,2.8rem);">Our Services</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"></polyline></svg>
+        <span>Services</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="justify-content:center;">What We Offer</div>
+      <h2>Comprehensive Financial &amp; Business Solutions</h2>
+      <p>Eight core service lines designed to support your business at every stage — from formation to long-term strategic growth.</p>
+      <div class="divider-accent"></div>
+    </div>
+
+    <div>
+      <div class="service-detail reveal anchor-offset" id="business-registration">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"></rect><polyline points="8 12 11 15 16 9"></polyline></svg></div>
+        <div>
+          <h2>Business Registration Services</h2>
+          <p>End-to-end support for setting up your business the right way — from initial structuring to regulatory registration — so you can start operating with full legal compliance.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Company incorporation &amp; SECP registration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Sole proprietorship &amp; partnership registration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> NTN &amp; sales tax registration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Chamber of Commerce &amp; trade body registration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Trademark &amp; brand registration support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Sector-specific regulatory licensing</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="audit-assurance">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6l7-3z"></path><polyline points="9 12 11.5 14.5 15.5 9.5"></polyline></svg></div>
+        <div>
+          <h2>Audit &amp; Assurance Services</h2>
+          <p>Independent, thorough, and accurate audits that give stakeholders confidence in your financial reporting and internal controls.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Statutory &amp; external audits</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Internal audit &amp; controls review</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Financial statement review</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Special-purpose &amp; compliance audits</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Risk-based audit methodology</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> IFRS &amp; ISA-aligned reporting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="hr-services">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="17" cy="8" r="2.4"></circle><path d="M15.5 14.2c2.4.4 4.5 2.4 4.5 5.8"></path></svg></div>
+        <div>
+          <h2>Human Resource (HR) Services</h2>
+          <p>Practical HR frameworks and workforce support that help you build, manage, and retain a compliant, productive team.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> HR policy design &amp; employee handbooks</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Recruitment &amp; staffing support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Payroll management</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Performance management systems</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Labor law compliance</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Organizational structuring</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="taxation">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="18" x2="18" y2="6"></line><circle cx="7.5" cy="7.5" r="2.2"></circle><circle cx="16.5" cy="16.5" r="2.2"></circle></svg></div>
+        <div>
+          <h2>Taxation Services</h2>
+          <p>Strategic tax planning and full compliance support that keeps you on the right side of the law while minimizing your tax burden.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Income tax return filing (individuals &amp; corporates)</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Sales tax &amp; withholding tax compliance</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Tax planning &amp; advisory</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> FBR representation &amp; correspondence</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Tax audits &amp; appeals</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> International taxation advisory</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="business-advisory">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="15 7 21 7 21 13"></polyline></svg></div>
+        <div>
+          <h2>Business Advisory Services</h2>
+          <p>Strategic guidance grounded in real-world experience, helping you make confident decisions at every stage of growth.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Business plans &amp; feasibility studies</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Financial modeling &amp; forecasting</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Restructuring &amp; turnaround advisory</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Mergers &amp; acquisitions support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Startup advisory</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Growth strategy consulting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="it-audit">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"></rect><line x1="8" y1="20" x2="16" y2="20"></line><line x1="12" y1="16" x2="12" y2="20"></line><polyline points="7 10 10 13 15 7"></polyline></svg></div>
+        <div>
+          <h2>Information Technology Audit</h2>
+          <p>Assessing IT systems, controls, and cybersecurity posture to protect data integrity and support regulatory compliance.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> IT general controls review</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cybersecurity risk assessment</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Systems &amp; process audits</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Data integrity &amp; governance review</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> ERP / software implementation audits</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> IT compliance advisory</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="accounting-software">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="6" rx="1.5"></rect><rect x="4" y="14" width="16" height="6" rx="1.5"></rect><line x1="7.5" y1="7" x2="7.5" y2="7"></line><line x1="7.5" y1="17" x2="7.5" y2="17"></line></svg></div>
+        <div>
+          <h2>Accounting Software Services</h2>
+          <p>Implementation and support for modern accounting systems that streamline your financial operations and reporting.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Accounting software selection &amp; implementation</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> ERP customization &amp; support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Bookkeeping automation</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Staff training on financial systems</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cloud accounting migration</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Ongoing technical support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-detail reveal anchor-offset" id="retainership">
+        <div class="service-detail__icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 14"></polyline></svg></div>
+        <div>
+          <h2>Retainership Services</h2>
+          <p>Ongoing, dedicated financial and advisory support so you always have expert guidance on hand — without the overhead of an in-house team.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated monthly advisory support</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Ongoing compliance monitoring</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Periodic financial reporting</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority access to our expert team</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cost-effective long-term partnership</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Customized retainer packages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--gray">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2>Not Sure Which Service You Need?</h2>
+        <p>Tell us about your business and we'll recommend the right solution.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a href="contact.html" class="btn btn--primary">Talk to an Advisor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="assets/images/logo.png" alt="SQ Financial Solutions" onerror="this.style.display='none'">
+        <p>A trusted financial and business advisory firm helping individuals, startups, SMEs, and corporates achieve sustainable growth.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="LinkedIn"><span style="font-size:12px;font-weight:700;">in</span></a>
+          <a href="#" aria-label="Facebook"><span style="font-size:12px;font-weight:700;">f</span></a>
+          <a href="#" aria-label="Twitter"><span style="font-size:12px;font-weight:700;">X</span></a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="our-team.html">Our Team</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#business-registration">Business Registration</a></li>
+          <li><a href="services.html#audit-assurance">Audit &amp; Assurance</a></li>
+          <li><a href="services.html#taxation">Taxation Services</a></li>
+          <li><a href="services.html#business-advisory">Business Advisory</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <ul>
+          <li>15C, Street 51, E-11/3, Islamabad</li>
+          <li><a href="mailto:info@sqfinsolutions.com">info@sqfinsolutions.com</a></li>
+          <li><a href="tel:0518467637">051-8467637</a></li>
+          <li><a href="https://sqfinsolutions.com">sqfinsolutions.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> SQ Financial Solutions. All rights reserved.</span>
+      <span>Organization Above Individual</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
